@@ -1,0 +1,11 @@
+   
+    .sideleft{
+        padding:10px;
+        flex-direction: column;
+        cursor: pointer;
+        width:150px;
+        height:100%;
+        background: grey;
+        border-right: 1px solid rgb(167, 143, 97) ;
+    } 
+    
