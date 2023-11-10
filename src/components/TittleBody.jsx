@@ -19,10 +19,12 @@ function TittleBody() {
               tittle.map((post)=>{
                 return (
                   <div className="container">
-                  <div className="card"  mt="3" style={{backgroundColor:"green", color:"white"}}>
+                  <div className="card  mt-3" style={{backgroundColor:"green", color:"white"}}>
                       <div className="card-body">
-                      <h6 className="card-title">ID:{post.id}</h6>
-                      <h6 className="card-title">Tittle:{post.title}</h6>
+                      <h6 className="card-title">ID : {post.id}</h6>
+                      <p className="card-title">Tittle : {post.title}</p>
+                      <p className="card-text">Body : {post.body}</p>
+
                       </div>
                   </div>
                   </div>

@@ -19,11 +19,11 @@ function Comments() {
               comments.map((post)=>{
                 return (
                   <div className="container">
-                  <div className="card"  mt="3" style={{backgroundColor:"grey", color:"white"}}>
+                  <div className="card mt-3" style={{backgroundColor:"grey", color:"white"}}>
                       <div className="card-body">
-                      <h6 className="card-title">PostID:{post.postId}</h6>
-                      <h6 className="card-title">Name:{post.name}</h6>
-                      <p className="card-text"> Email:{post.email}</p>
+                      <h6 className="card-title">PostID : {post.postId}</h6>
+                      <h6 className="card-title">Name : {post.name}</h6>
+                      <p className="card-text"> Email : {post.email}</p>
                       </div>
                   </div>
                   </div>
@@ -35,4 +35,4 @@ function Comments() {
   )
 }
 
-export default Comments
+export default Comments;
